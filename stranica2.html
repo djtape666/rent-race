@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>рентэрейс</title>
+</head>
+
+<body>
+    <p id="car_name" style="display: none;">Mustang</p>
+    <header>
+        <div class="header">
+            <div class="container">
+                <div class="header_line">
+                    <div class="logo">
+                        <img src="logog.png">
+                    </div>
+                    <div class="nav">
+                        <a class="nav_item" href="index.html">ГЛАВНАЯ</a>
+                        <a class="nav_item" href="katalog.html">КАТАЛОГ</a>
+                        <a class="nav_item" href="yslovia.html">УСЛОВИЯ</a>
+                        <a class="nav_item" href="kontakt.html">КОНТАКТЫ</a>
+                        <a class="nav_item">+7 996 945 04 16</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <button id="closeModal">Закрыть</button>
+            <p>Все данные верны. Бронирование выполнено!</p>
+        </div>
+    </div>
+
+    <div class="h1_katalog">
+        <div class="text_ktlg">
+            Ford Shelby Mustang GT350R 2017
+        </div>
+    </div>
+
+    <div class="cars">
+        <div class="corvett">
+            <img src="форд.jpg" width="1061" height="584">
+        </div>
+    </div>
+
+    <div class="opisanie">
+        <div class="text_opisanie">
+            <a class="cor">
+                <p><img src="деньги.png" width="45" height="45"> 30.000 руб/сут</p>
+            </a>
+            <a class="ff">
+                <p><img src="двигатель.png" width="50" height="50"> 526 л.с</p>
+            </a>
+
+            <a class="">
+                <p><img src="бензин.png" width="40" height="40"> АИ-98</p>
+            </a>
+            <a class="">
+                <p><img src="привод.png" width="50" height="50"> задний</p>
+            </a>
+
+        </div>
+
+
+    </div>
+
+    <div class="h1_katalog">
+        <div class="text_ktlg">
+            ЗАБРОНИРОВАТЬ АВТОМОБИЛЬ
+        </div>
+    </div>
+    <div class="full">
+        <div class="contentt">
+            <div class="forma">
+                <div class="input_forma">
+                    <form>
+                        <p>
+                            <label class="nazvanie">ИМЯ И ФАМИЛИЯ <span class="colortext">*</span></label><br>
+                            <input type="text" id="first_name" required="required" class="fon">
+                            <label id="error_first_name" class="error-label"></label>
+                        </p>
+                        <p>
+                            <label class="nazvanie">ТЕЛЕФОН <span class="colortext">*</span></label><br>
+                            <input type="tel" id="phone" required="required" class="fon">
+                            <label id="error_phone" class="error-label"></label>
+                        </p>
+                        <p>
+                            <label class="nazvanie">ЭЛЕКТРОННАЯ ПОЧТА <span class="colortext">*</span></label><br>
+                            <input type="email" id="email" required="required" class="fon">
+                            <label id="error_email" class="error-label"></label>
+                        </p>
+                        <p>
+                            <label class="nazvanie">ДАТА АРЕНДЫ <span class="colortext">*</span></label><br>
+                            <input type="date" class="fon" id="start_date" value="2024-01-01" min="2024-01-01"
+                                max="2025-01-01" required="required">
+                            <span>по</span>
+                            <input type="date" class="fon" id="end_date" value="2024-01-01" min="2024-01-01"
+                                max="2025-01-01" required="required">
+                            <label id="error_date" class="error-label"></label>
+                        </p>
+                </div>
+            </div>
+            <div class="btm">
+                <p>
+                    <button id="bron_button">ПОДТВЕРДИТЬ БРОНЬ</button>
+                </p>
+            </div>
+            </form>
+        </div>
+
+        <div class="text_ogranicheniya">
+            <div class="txt_ogr">
+                ВАЖНЫЕ ОГРАНИЧЕНИЯ ПРИ АРЕНДЕ
+            </div>
+            <div class="spisok_txt">
+                <p class="ppp">При аренде автомобиля водителю запрещается:</p>
+                <ul>
+                    <li>передавать машину в управление третьему лицу</li>
+                    <li>пользоваться машиной для совершения противозаконных действий</li>
+                    <li>превышать установленный режим скорости ТС</li>
+                    <li>пользоваться авто для получения прибыли</li>
+                </ul>
+            </div>
+            <div class="srahovka">
+                СТРАХОВКА
+            </div>
+            <div class="txt_strhvk">
+                <p>Все автомобили застрахованы по КАСКО.
+                    Вы можете не переживать<br> за автомобиль и получать
+                    удовольствия от вождения. </p>
+            </div>
+            <div class="srahovka">
+                ТЕХПОДДЕРЖКА
+            </div>
+            <div class="txt_strhvk">
+                <p> течение всего срока аренды вы можете обратиться в Техподдержку<br>
+                    по телефону или соцсетях. Они оперативно решат любой вопрос в режиме 24/7. </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="footer_line">
+
+                    <div class="nav">
+                        <a class="nav_item">© 2024 rentarace.ru
+                        </a>
+                        <a class="nav_item">RENT A RACE</a>
+                        <a class="nav_item">+7 996 945 04 16<br>
+                            hotbeeeer@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="arenda.js"></script>
+</body>
+
+</html>
