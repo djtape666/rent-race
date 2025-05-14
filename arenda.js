@@ -1,6 +1,4 @@
 
-
-
 const car_name = document.getElementById("car_name").innerText;
 
 
