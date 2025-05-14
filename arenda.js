@@ -13,7 +13,7 @@ const error_first_name = document.getElementById("error_first_name");
 const error_phone = document.getElementById("error_phone");
 const error_email = document.getElementById("error_email");
 const error_date = document.getElementById("error_date");
-var bron_button = document.getElementById('bron_button');
+let bron_button = document.getElementById('bron_button');
 
 const modal = document.getElementById("myModal");
 const close_button = document.getElementById("closeModal");
