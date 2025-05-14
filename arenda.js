@@ -34,8 +34,8 @@ function close_modal() {
 const name_regular = /^[А-ЯЁ][а-яё]+ [А-ЯЁ][а-яё]+$/;
 const email_regular = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const phone_regular = /^\+7\s?\d{3}\s?\d{3}\s?\d{2}\s?\d{2}$/;
-const min_date = new Date("2024-01-01");
-const max_date = new Date("2025-01-01");
+const min_date = new Date("2025-05-05");
+const max_date = new Date("2029-05-05");
 
 function bron() {
     event.preventDefault();

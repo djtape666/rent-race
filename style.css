@@ -48,7 +48,7 @@ body {
     margin-left: 100px;
 }
 
-.header_down {}
+
 
 .header_bth {
     margin-top: 415px;
@@ -72,7 +72,7 @@ body {
     color: #ffd600;
 }
 
-.header_foto {}
+
 
 .foto {
     float: right;
@@ -238,6 +238,8 @@ body {
 }
 
 .corvet {
+    margin-top: -18px;
+    margin-bottom: 18px;
     padding-right: 45px;
     overflow: hidden;
     transition: .6s;
@@ -276,6 +278,12 @@ body {
 
 .ford:hover {
     transform: scale(1.1);
+}
+
+.nazv_knopk{
+    color: #f3f3f3;
+    font-size: 25px;
+    
 }
 
 /* ФУТЕР------------------*/
@@ -347,7 +355,7 @@ footer {
     justify-content: space-around;
 }
 
-.ff {}
+
 
 .forma {
     border-radius: 11px;
@@ -383,14 +391,26 @@ footer {
 }
 
 .btm {
-
+    font-family:"Russo One", sans-serif ;
     background-color: #f3f3f3;
     border-radius: 11px;
     color: black;
     text-decoration: none;
     margin-left: 275px;
     text-align: center;
-    font-size: 23px;
+    font-size: 28px;
+    transition: all 0.3s linear;
+}
+
+.btm:hover {
+    
+    background-color: #161821;
+    color: #f3f3f3;
+}
+.closeModal {
+    background-color: #88c28a;
+    color: black;
+    font-family:"Russo One", sans-serif ;
 }
 
 .text_ogranicheniya {
@@ -501,4 +521,22 @@ li {
     float: right;
     font-size: 24px;
     cursor: pointer;
+}
+
+/* Фильтр -----------*/
+.marka_button {
+    padding: 8px 12px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #e0e0e0;
+    margin: 4px;
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.marka_button.active {
+    background-color: #4CAF50;
+    color: white;
 }

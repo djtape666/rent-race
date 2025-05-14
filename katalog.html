@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>рентэрейс</title>
+    <title>Rent a Race</title>
 </head>
 
 <body>
@@ -38,45 +38,41 @@
 
     <div class="filtr_marka">
         <div class="marka">
-
             <p class="ptxt">МАРКА</p>
         </div>
-        <a class="marka_button" data-id="ch">
-            CHEVROLET </a>
-
-        <a class="marka_button" data-id="fo">
-            FORD
-        </a>
-
-        <a class="marka_button" data-id="la">
-            LAMBORGHINI
-        </a>
-
-
+        <a class="marka_button" data-id="all">Все</a>
+        <a class="marka_button" data-id="ch">CHEVROLET</a>
+        <a class="marka_button" data-id="fo">FORD</a>
+        <a class="marka_button" data-id="la">LAMBORGHINI</a>
     </div>
+
     <div class="katalog_cars">
         <div class="allone">
 
-
-            <div class="corvet">
-
-                <a href="stranica.html"> <img src="корвет.jpg" class="img corveet" width="649" height="407"></a>
-
+            <div class="car_item corvet" data-id="ch">
+                <a href="stranica.html">
+                    <img src="корвет.jpg" class="img" width="649" height="407"><p class="nazv_knopk" >Corvette C7 Grand Sport 2017</p>
+                </a>
             </div>
 
-            <div class="ford">
-                <p> <a href="stranica2.html"> <img src="форд.jpg" class="img fordd" width="649" height="407"> </a></p>
+            <div class="car_item ford" data-id="fo">
+                <a href="stranica2.html">
+                    <img src="форд.jpg" class="img" width="649" height="407"><p class="nazv_knopk">Ford Shelby Mustang GT350R 2017</p>
+                </a>
             </div>
         </div>
 
         <div class="alltwo">
-            <div class="lamba">
-                <p> <a href="stranica3.html"> <img src="ламба.jpg" class="img lambaa" width="649" height="407"></a></p>
+            <div class="car_item lamba" data-id="la">
+                <a href="stranica3.html">
+                    <img src="ламба.jpg" class="img" width="649" height="407"><p class="nazv_knopk">Lamborghini Diablo SV-R</p>
+                </a>
             </div>
 
-            <div class="camaro">
-                <p><a href="stranica4.html"> <img src="e59YM0jKqvkFMTM2-09.jpg" class="img corveet" width="649"
-                            height="407"></a></p>
+            <div class="car_item camaro" data-id="ch">
+                <a href="stranica4.html">
+                    <img src="e59YM0jKqvkFMTM2-09.jpg" class="img" width="649" height="407" ><p class="nazv_knopk" >Chevrolet Camaro ZL1 2017</p>
+                </a>
             </div>
         </div>
     </div>
@@ -87,17 +83,19 @@
                 <div class="footer_line">
 
                     <div class="nav">
-                        <a class="nav_item">© 2024 rentarace.ru
+                        <a class="nav_item">© 2025 rentarace.ru
                         </a>
                         <a class="nav_item">RENT A RACE</a>
-                        <a class="nav_item">+7 996 945 04 16<br>
-                            hotbeeeer@gmail.com</a>
+                        <a class="nav_item">+7 996 945 04 16</a>
+                        <a class="nav_item">    hotbeeeer@gmail.com</a>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
 
+
+    <script src="./filter_car.js"></script>
 </body>
 
 </html>
