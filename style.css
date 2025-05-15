@@ -221,6 +221,17 @@ body {
     margin-left: 35px;
 }
 
+.btnstr {
+    background-color: #f3f3f3;
+    padding: 13px 20px;
+    color: black;
+    font-size: 27px;
+    border-radius: 11px;
+    margin-left: 447px;
+    margin-bottom: 20px;
+    font-family: "Russo One";
+}
+
 .katalog_cars {
     padding-right: 70px;
     padding-left: 275px;
@@ -243,7 +254,7 @@ body {
     padding-right: 45px;
     overflow: hidden;
     transition: .6s;
-    /* Время эффекта */
+    
 }
 
 a {
@@ -255,7 +266,7 @@ a {
 
 .corvet:hover {
     transform: scale(1.1);
-    /* Увеличиваем масштаб */
+    
 }
 
 .lamba {
@@ -345,7 +356,22 @@ footer {
 .cars {
     text-align: center;
     padding-bottom: 30PX;
+    margin-left: 220px;
+    width: 1061px;
+    height: 584px;
+    overflow: hidden;
+    position: relative;
 }
+
+  .corvett {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  .corvett img {
+    width: 1061px;
+    height: 584px;
+    flex-shrink: 0;
+  }
 
 .opisanie {
     background-color: #0F171D;

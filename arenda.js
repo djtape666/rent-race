@@ -77,7 +77,7 @@ function bron() {
     }
 
     if (start_date_value < min_date || start_date_value > max_date || end_date_value < min_date || end_date_value > max_date) {
-        error_date.innerText = "Дата должна быть между 01.01.2024 и 01.01.2025.";
+        error_date.innerText = "Дата должна быть между 15.05.2025 и 22.05.2025.";
         flag = false;
     }
 
