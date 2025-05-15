@@ -227,7 +227,7 @@ body {
     color: black;
     font-size: 27px;
     border-radius: 11px;
-    margin-left: 447px;
+    margin-left: 560px;
     margin-bottom: 20px;
     font-family: "Russo One";
 }
@@ -356,7 +356,7 @@ footer {
 .cars {
     text-align: center;
     padding-bottom: 30PX;
-    margin-left: 220px;
+    margin-left: 400px;
     width: 1061px;
     height: 584px;
     overflow: hidden;
